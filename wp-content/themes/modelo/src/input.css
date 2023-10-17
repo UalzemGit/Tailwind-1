@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+PODEMOS CRIAR NOSSOS COMPONETES PERSONALIZADOS ASSIM:
+*/
+@layer components {
+  .btn-ualzem {
+    @apply bg-blue-600 text-white font-bold py-2 px-4 rounded;
+  }
+}
+/*
+NO CASO ACIMA, TODA VEZ QUE TIVER O BOTÃO COM A CLASSE btn-ualzem ESSE CSS SERÁ APLICADO
+    */
